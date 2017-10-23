@@ -1,0 +1,120 @@
+/* LESS Stylesheet */
+
+/* Colors */
+
+@main: #402a23;    // Dark Brown
+@accent: #3CB1E3;  // Carmel ?  /* #a55233 */
+@light: #fff;   // Tainish Color  /* #f3bc77 */
+@dark: #1d1716;    // Black
+
+/* Font Stacks */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700|Raleway);
+
+@font-main: 'PT Sans', 'Alegreya Sans', 'Georgia', 'Times New Roman', serif;  
+@font-secondary: 'Raleway', 'Georgia', 'Times New Roman', serif;
+@font-alt: 'Lato', 'Arial', sans-serif; 
+
+
+/* Mixins */
+
+.text-shadow(@shadow : 0 0 15px #000000) {
+	-moz-text-shadow: @shadow;
+	-webkit-text-shadow: @shadow;
+	text-shadow: @shadow;
+}
+
+.box-shadow(@shad : 0 0 4px -1px #000) {
+	-moz-box-shadow: @shad;
+	-webkit-box-shadow: @shad;
+	box-shadow: @shad;
+}
+
+.rounded() {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.transition(@time: 0.5s) {
+	-webkit-transition: all @time;
+	-moz-transition: all @time;
+	transition: all @time;
+}
+
+.radius(@radius: 4px) {
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+
+/* Animations */
+
+.slide-in-right {
+	position: relative;
+	right: -60px;
+	.transition(2s);
+
+	&.animate {
+		right: 0;
+	}
+}
+
+.slide-in-left {
+	position: relative;
+	left: -60px;
+	.transition(2s);
+
+	&.animate {
+		left: 0;
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	.transition(2s);
+
+	&.animate {
+		opacity: 1;
+	}
+}
+
+/* Button Styles */
+
+.button-solid {
+	background: @accent;
+	color: @main;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-family: @font-secondary;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 11px 30px;
+	text-transform: uppercase;
+	border: none;
+	.transition;
+
+	&:hover {
+		background-color: @light;
+		color: @dark;
+	}
+}
+
+.button-transparent {
+	background: transparent;
+	border: 1px solid @main;
+	color: @main;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-family: @font-secondary;
+	font-size: 24px;
+	font-weight: 300;
+	padding: 11px 30px;
+	text-transform: uppercase;
+
+	&:hover {
+		color: @accent;
+		border-color: @accent;
+	}
+}

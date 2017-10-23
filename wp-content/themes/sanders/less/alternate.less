@@ -1,0 +1,718 @@
+/* Import the other stylesheets */
+
+@import "setup"; 
+
+/* Gravity Forms */
+
+.gform_wrapper {
+
+	form {
+
+		.validation_message, .validation_error {
+			color: red !important;
+		}
+
+		.gform_heading {}
+
+		.gform_body {
+
+			ul.gform_fields {
+				padding-left: 0;
+				margin: 0;
+				list-style: none;
+
+				li.gfield {
+					margin-bottom: 30px;
+
+					&.gfield_error, &.gfield_error.gfield_contains_required {
+						background: none;
+						border: none;
+						width: 100%;
+						padding-left: 0 !important;
+
+						.ginput_container {
+							max-width: 100%;
+						}
+					}
+
+					&.gfield_html {
+						background: #eaeaea;
+						.radius(3px);
+						padding: 20px;
+						font-size: 15px;
+						font-family: @font-secondary;
+						color: @main;						
+
+						i {
+							padding-right: 7px;
+						}
+					}
+
+					label {
+						font-size: 14px;
+						font-family: @font-secondary;
+						color: @dark;
+						font-weight: bold;
+						text-transform: uppercase;
+
+						.gfield_required {
+							color: @main;
+							padding-left: 5px;
+						}
+					}
+
+					.ginput_container, .gfield_captcha_input_container {
+
+						input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+							width: 100%;
+							font-size: 18px;
+							color: @dark;
+							background: transparent;
+							border: 2px solid @dark;
+							padding: 15px;
+							.transition;
+
+							&:focus {
+								border-color: @main;
+								color: @main;
+							}
+						}
+
+						ul {
+							list-style: none;
+							padding: 0;
+
+							li {
+
+								label {
+									font-size: 15px;
+								    font-weight: normal;
+								    text-transform: none;
+
+								    a {
+								    	color: @main;
+
+								    	&:hover {
+								    		color: @accent;
+								    	}
+								    }
+								}
+							}
+						}
+
+						input[type="radio"], input[type="checkbox"] {
+							margin-right: 12px;
+						}
+					}
+				}
+			}
+		}
+
+		.gform_footer {
+
+			.gform_button {
+				.button-transparent;
+			}
+		}
+	}
+}
+
+.sidebar {
+
+	.gform_wrapper {
+
+		form {
+
+			.gform_body {
+
+				ul.gform_fields {
+
+					li.gfield {
+						margin-bottom: 5px;
+
+						&.gfield_html {
+							background: @dark;
+							color: @main;						
+						}
+
+						label {
+							color: @main;
+
+							.gfield_required {
+								color: @accent;
+							}
+						}
+
+						.ginput_container, .gfield_captcha_input_container {
+
+							input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+								color: @main;
+								border-color: @main;
+								padding: 10px;
+
+								&:focus {
+									border-color: @accent;
+								}
+							}
+
+							ul {
+
+								li {
+
+									label {
+
+									    a {
+									    	color: @accent;
+
+									    	&:hover {
+									    		color: lighten(@accent, 10%);
+									    	}
+									    }
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.popout-form {
+	z-index: 10000;
+
+	.popout-tab {
+
+	    &:hover {
+	    	
+	    }
+
+	    h1 {
+	    	
+	    }
+	}
+
+	h1 {
+		
+	}
+
+	.gform_wrapper {
+
+		form {
+
+			.gform_heading {}
+
+			.gform_body {
+
+				ul.gform_fields {  
+
+					li.gfield {
+
+						&.gfield_html {}
+
+						label {
+
+							.gfield_required {}
+						}
+
+						.ginput_container, .gfield_captcha_input_container {
+
+							input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+
+								&:focus {
+									color: @white;
+								}
+							}
+
+							ul {
+
+								li {
+									input {
+										margin-top: 0;
+									}
+
+									label {
+										display: inline-block;
+  										margin-left: 5px;
+
+									    a {
+									    	color: @accent;
+
+									    	&:hover {
+									    		color: @main;
+									    	}
+									    }
+									}
+								}
+							}
+
+							input[type="radio"], input[type="checkbox"] {}
+						}
+					}
+				}
+			}
+
+			.gform_footer {
+
+				.gform_button {}
+			}
+		}
+	}
+}
+
+/* This be the place where ye shall find that which ye seek, and that which makes ye whole. Although, what makes ye whole shall also devour thy soul */
+
+
+section.welcome {
+	text-align: center;
+	position: relative;
+
+	.wrapper {
+		max-width: 885px;
+
+		.heading {
+
+			h2 {
+				font-family: @font-main;
+				font-size: 23px;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			
+			&:after {
+				display: none;
+			}
+		}
+
+		h4 {
+			font-family: @font-secondary;
+			font-size: 18px;
+			font-style: italic;
+		}
+
+		.col-sm-6 {
+			text-align: justify;
+
+			p {
+				font-family: @font-alt;
+				font-size: 15px;
+				line-height: 23px;
+			}
+		}
+	}
+}
+/* --------------------------- */
+/* Added                       */
+/* --------------------------- */
+
+section.we-design {
+	overflow: hidden;
+	position: relative;
+	.wrapper {
+		max-width: 1170px;
+
+		.col-sm-4 {
+		    position: relative;
+		    right: 40px;
+		   }
+	}
+}
+
+/* --------------------------- */
+/* Added End                   */
+/* --------------------------- */
+
+section.commitment-section {
+	overflow: hidden;
+	position: relative;
+
+	.wrapper {
+		max-width: 1170px;
+
+		.col-sm-4 {
+		    position: relative;
+		    right: 40px;
+		}
+
+		.col-sm-8 {
+			text-align: justify;
+
+			.heading {
+
+			h2 {
+				font-family: @font-main;
+				font-size: 23px;
+				color: @white;
+				font-weight: bold;
+				margin-bottom: 0;
+			}
+
+			h4 {
+				font-family: @font-secondary;
+				font-size: 18px;
+				font-style: italic;
+				color: @white;
+				margin-top: 8px;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+
+			p {
+				font-family: @font-alt;
+				font-size: 15px;
+				line-height: 23px;
+				color: @white;
+			}
+
+			a {
+				.button-transparent;
+				font-family: @font-main;
+				color: @white;
+				border-color: @white;
+				border-width: 2px;
+				font-size: 16px;
+				letter-spacing: 2px;
+
+				&:hover {
+					color: @main;
+					border-color: @main;
+				}
+			}
+		}
+	}
+}
+
+section.contact-our-office {
+	background-color: @main;
+	background: url('../images/pattern-bg.jpg') repeat scroll 0 0 @main;
+
+	a {
+		.button-solid;
+		background-color: @white;
+		color: @main;
+		font-family: @font-main;
+		font-size: 11px;
+		padding: 23px 30px;
+
+		&:hover {
+			background-color: @dark;
+			color: @white;
+		}
+	}
+
+	p {
+		font-family: @font-secondary;
+		font-size: 32px;
+		line-height: 32px;
+		font-style: italic;
+		color: @white;
+	}
+}
+
+section.our-team {
+
+	.wrapper {
+
+		.col-sm-7 {
+			text-align: justify;
+
+			.heading {
+
+				h3 {
+					font-family: @font-main;
+					font-size: 23px;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 0;
+				}
+			
+				&:after {
+					display: none;
+				}
+
+				h4 {
+					font-family: @font-secondary;
+					font-size: 18px;
+					font-style: italic;
+					margin-top: 8px;
+				}
+			}
+
+			p {
+				font-family: @font-alt;
+				font-size: 15px;
+				line-height: 23px;
+			}
+
+			a {
+				.button-transparent;
+				font-family: @font-main;
+				color: @main;
+				border: 2px solid @main;
+				font-size: 16px;
+				font-weight: bold;
+
+				&:hover {
+					border-color: @dark;
+					color: @dark;
+				}
+			}
+		}	
+	}
+}
+
+section.awards-section {
+	text-align: center;
+
+	.award {
+		padding: 0 22px;
+	}
+}
+
+section.office-locations {
+       position: relative;
+       overflow: hidden;
+
+
+	.wrapper {
+		max-width: 1060px;
+
+		.col-sm-4 {
+			position: relative;
+			right: 40px;
+		}
+
+		.col-sm-7 {
+			text-align: justify;
+
+			.heading {
+
+				h2 {
+					font-family: @font-main;
+					font-size: 23px;
+					color: @white;
+					font-weight: bold;
+					margin-bottom: 0;
+				}
+
+				h4 {
+					font-family: @font-secondary;
+					font-size: 18px;
+					font-style: italic;
+					color: @white;
+					margin-top: 8px;
+				}
+
+				&:after {
+					display: none;
+				}
+			}
+		}	
+
+		p {
+			font-family: @font-alt;
+			font-size: 15px;
+			line-height: 23px;
+			color: @white;
+
+			a {
+				color: @accent;
+
+				&:hover {
+					color: @main;
+				}
+			}
+		}
+	}
+}
+
+section.assistance {
+	text-align: center;
+	background: url('../images/pattern-bg.jpg') repeat scroll 0 0 @main;
+	color: @white;
+
+	.wrapper {
+
+		.title {
+			font-size: 32px;
+			font-family: @font-secondary;
+			font-style: italic;
+			margin-bottom: 40px;
+			margin-top: -20px;
+		}
+
+		.nubly-carmel {
+			margin-bottom: 10px;
+
+			a {
+				color: @white;
+			}
+		}
+
+		.nubly {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		.carmel {
+			display: inline-block;
+		}
+
+		.candycorn {
+			display: inline;
+    		border: 5px solid #9c2a37;
+    		padding: 22px 16px;
+    		font-size: 13px;
+    		font-family: @font-main;
+    		text-transform: uppercase;
+
+    		i {
+				border: 1px solid #fff;
+				border-radius: 10px;
+				padding: 1px 2px;
+				margin-right: 4px;
+    		}
+		}
+	}
+}
+
+footer { /*
+	background-color: @light;
+	padding: 60px 0;
+
+	.social-media {
+		margin-top: 10px;
+
+		i {
+			font-size: 30px !important;
+			color: @white;
+			padding-right: 14px;
+			position: relative;
+			top: 10px;
+			.transition;
+
+			&:hover {
+				color: @main;
+			}	
+		}
+	}	*/
+
+	h5 {
+		color: @main;
+		color: #CE9C5C;
+		font-family: @font-main;
+		font-size: 13px;
+		margin-bottom: 5px;
+	}	
+
+
+	.heading {
+
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		
+		h3 {
+			font-family: @font-main;
+			font-size: 20px;
+			color: @white;
+			float: left;
+			padding-right: 10px;
+		}
+
+		.line {
+			overflow: auto;
+			height: 2px;
+			background: #929297;
+			position: relative;
+			top: 30px;
+		}
+	}
+
+	h5 {
+		margin-bottom: 5px;
+
+		a {
+			color: @main;
+			font-family: @font-main;
+			font-size: 13px;
+			color: #CE9C5C;
+
+			&:hover {
+				color: @white;
+				color: @main;
+			}
+		}	
+	}
+
+	ul {
+		padding-left: 0;
+
+		li {
+			list-style-type: none;
+			margin-left: 0;
+			font-family: @font-secondary;
+			color: @white;
+			font-size: 13px;
+			text-transform: none;
+
+
+			a {
+				color: @white;
+				font-size: 13px;
+				text-decoration: none;
+				text-transform: none;
+
+				&:hover {
+					color: @main;
+				}
+			}
+		}
+	}
+
+	p {
+		font-family: @font-secondary;
+		font-size: 13px;
+		color: @white;
+		margin-top: 0;
+	}
+
+	.address {
+		text-transform: none;
+		font-family: @font-secondary;
+
+		a {
+			color: @white;
+			text-decoration: underline;
+			font-size: 13px;
+
+			&:hover {
+				color: @main;
+			}
+		}
+	}
+}
+
+.copyright {
+	background-color: @dark;
+	text-align: center;
+	padding: 20px 0;
+	border-top: 2px solid #3d3d43;
+	color: #777777;
+	font-family: @font-main;
+	font-size: 12px;
+
+	a {
+		color: @main;
+
+		&:hover {
+			color: @white;
+		}
+	}
+}
