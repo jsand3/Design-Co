@@ -85,12 +85,6 @@ h1 {
 	font-size:30px;
 	margin:40px 0;
 }
-header h1 {
-	color: #3cb1e3;
-}
-header small {
-	color: #333;
-}
 h2 {
 	font-size:26px;
 	margin:30px 0;
@@ -657,16 +651,18 @@ section.we-design .img-height { height:234px; }
 section.meet-designers .big-designer-img img {
 	width:350px;
 	height:345px;
-	margin-top:22px;
 	margin-left:14px;
 	display:inline;
 }
+section.meet-designers .designer-img-info.designer-1 { margin-top:22px; }
 section.meet-designers .big-designers { display:inline; }
+section.meet-designers .meet-designers .designer-img-info { margin-top:22px; }
 section.meet-designers .small-designers img { margin-right:-22px; }
 section.meet-designers h2 {
 	font-family:'PT Sans', 'Alegreya Sans', 'Georgia', 'Times New Roman', serif;
 	font-size:30px;
-	margin:52px 146px 0px;
+	margin:0px 0px;
+	line-height:.85;
 }
 section.meet-designers p {
 	font-family:'Raleway', 'Georgia', 'Times New Roman', serif;
@@ -803,46 +799,4 @@ section.wedding-details #mapCeremony {
 section.wedding-details #mapReception {
 	height:500px;
 	width:500px;
-}
-
-
-/* Parallax */
-header {
-	background-image: url("http://affectstudios.net/john/wp-content/themes/sanders/images/bg-1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-/*
-.parallax__layer--back {
-    -webkit-transform: translateZ(-300px) scale(2);
-    transform: translateZ(-300px) scale(2);
-    z-index: 3;
-}
-#group2 .parallax__layer--back {
-    background: rgb(123,210,102);
-}
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transform-origin-x: 100%;
-    transform-origin-x: 100%;
-}
-.parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    z-index: 4;
-}
-.parallax {
-    height: 500px;
-    //height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 300px;
-    perspective: 300px;
-    -webkit-perspective-origin-x: 100%;
-    perspective-origin-x: 100%;
 }

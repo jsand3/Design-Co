@@ -171,8 +171,8 @@
         </div>
     <!-- woman 1 -->
 				<!-- 
-				<div class="row">
-				<div style="display: none;" class="big-designers woman-1">
+					<div class="row">
+						<div style="display: none;" class="big-designers woman-1">
 					<div class="col-md-offset-1 col-md-3">
 						<div class="big-designer-img">
 							<img class="lg-designers" src="<?php themedir() ?>/images/lgwm1.png" alt="California Interior Designer" />
@@ -194,27 +194,54 @@
 							</p>
 						</div>
 					</div>
-				</div>
-			-->
+					</div>
+				-->
 			<!-- woman 1 -->
             <div id="mobile-big"></div>
 			<!-- Contains Big Image and Bio -->
 			<div class="row">
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers">
 					<div class="designer-img-info designer-1" style="display: none;">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3"> -->
+						<div class="col-xs-4">
 							<!-- Holds the big image -->
 							<div id="mobile-w-1" class="big-designer-img"> <!-- id is for mobile scrolling to image -->
 								<img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm1.png" alt="California Interior Designer" />
 							</div>
                         </div>
-                        <div class="col-xs-7">
-                            <div class="bio w1">
+                        <div class="col-xs-10 col-sm-offset-2 col-sm-5 col-md-6">
+                            <div class="bio w1"> 
                                 <div class="row">
                                     <h2>Woman 1<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
+                            </div>
+                            <!--  -->
+                            <div class="bio">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+
+    							<!-- 
+    								<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    								</div>
+    							-->
                             </div>
                         </div>
 					      <!-- Contains the bio -->
