@@ -49,7 +49,7 @@
 </section>
 
 <!-- We Design       -->
-<section class="we-design parallax-window" data-parallax="scroll"  data-image-src="http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg">
+<section class="we-design parallax-window">
 	<!--
 		<img id="bg-mobile-only" class="bg" src="<?php themedir() ?>/images/bg-2-m.jpg" data-stellar-ratio="0.7" data-stellar-vertical-offset="-200" /> 
 	-->
@@ -169,52 +169,52 @@
                 </div>
             </div>
         </div>
-    <!-- woman 1 -->
-				<!-- 
-				<div class="row">
-				<div style="display: none;" class="big-designers woman-1">
-					<div class="col-md-offset-1 col-md-3">
-						<div class="big-designer-img">
-							<img class="lg-designers" src="<?php themedir() ?>/images/lgwm1.png" alt="California Interior Designer" />
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-7">
-						<div class="bio">
-							<h3>Woman 1<br>
-							Title</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-								Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-							</p>
-							<p>
-								Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-								mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-								i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-							</p>
-						</div>
-					</div>
-				</div>
-			-->
 			<!-- woman 1 -->
             <div id="mobile-big"></div>
 			<!-- Contains Big Image and Bio -->
 			<div class="row">
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers">
 					<div class="designer-img-info designer-1" style="display: none;">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3"> -->
+						<div class="col-xs-4">
 							<!-- Holds the big image -->
 							<div id="mobile-w-1" class="big-designer-img"> <!-- id is for mobile scrolling to image -->
 								<img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm1.png" alt="California Interior Designer" />
 							</div>
                         </div>
-                        <div class="col-xs-7">
-                            <div class="bio w1">
-                                <div class="row">
+                        <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+                            <div class="row">
+                            	<div class="bio w1"> 
                                     <h2>Woman 1<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
+                            </div>
+                            <!--  -->
+                            <div class="bio">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+
+    							<!-- 
+    								<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    								</div>
+    							-->
                             </div>
                         </div>
 					      <!-- Contains the bio -->
@@ -424,10 +424,10 @@
 <!-- Design Projects -->
 <!-- ~~~~~~~~~~~~~~~ -->
 
-<section class="design-projects parallax-window" data-bleed="25" data-parallax="scroll"  data-image-src="<?php themedir() ?>/images/bg-3-m.jpg">
+<section class="design-projects parallax-window">
 <!--
 <section class="design-projects">
-	<img class="bg mobile" src="<?php themedir() ?>/images/bg-3-m.jpg"  />
+	<img class="bg mobile" src="<?//php themedir() ?>/imagers/bg-3-m.jpg"  />
 -->
 	<div class="container">
 
@@ -535,7 +535,6 @@
 <!-- ~~~~~~~~~~~~~~~ -->
 <!-- http://goo.gl/VgHkux for cool contact form effect -->
 <section class="contact-us">
-	<img class="bg" src="<?php themedir() ?>/images/desktop.jpg" data-stellar-ratio="0.7" data-stellar-vertical-offset="-775"  />
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-4">
