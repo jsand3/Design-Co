@@ -105,8 +105,16 @@
 }
 @media (max-width: 767px) {
 	img.bg { transform:translate3d(0,0,0) !important; }
+	section.we-design {
+		background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg") no-repeat;
+		background-size:cover;
+	}
 	section.we-design img.bg { height:1576px; }
 	#bg-mobile-only { display:none; }
+	section.design-projects {
+		background:linear-gradient(to bottom,rgba(246,246,246,0.1),rgba(237,237,237,0.11) 100%), url("http://affectstudios.net/john/wp-content/themes/sanders/images/bg-3-m.jpg") no-repeat;
+		background-size:cover;
+	}
 	section.design-projects img.bg { height:2028px; }
 	section.meet-designers .small-designers.mobile { display:inline; }
 	section.meet-designers .small-designers { display:none; }
@@ -125,7 +133,11 @@
 	section.meet-designers .m-back { display:inline; }
 	section.meet-designers #mobile-designer-back-btn { display:inline; }
 	section.about-us p { margin:0 42px 30px 32px; }
-	header { height:620px; }
+	header {
+		height:620px;
+		background:url(http://affectstudios.net/john/wp-content/themes/sanders/images/bg-1.jpg) no-repeat;
+		background-size:cover;
+	}
 	header .container { top:150px; }
 	nav ul.nav li.current-menu-item > a, nav ul.nav li.current-menu-item > a:link {
 		font-size:26px;
@@ -195,9 +207,9 @@
 		margin:-4px 0px 10px 5px;
 		font-size:38px;
 	}
-	section.contact-us img.bg {
-		height:700px;
-		top:0px !important;
+	section.contact-us {
+		background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/desktop.jpg") no-repeat;
+		background-size:cover;
 	}
 	section.contact-us .row.cf { height:400px; }
 	footer .row:nth-child(3) { margin-top:16px; }
