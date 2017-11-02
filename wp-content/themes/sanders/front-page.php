@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                             <!--  -->
-                            <div class="bio">
+                            <div class="bio bio-lg">
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -204,22 +204,11 @@
     									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
     								</p>
     							</div>
-
-    							<!-- 
-    								<div class="row">
-    								<p>
-    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-    								</p>
-    								</div>
-    							-->
                             </div>
                         </div>
 					      <!-- Contains the bio -->
-    					<div class="col-xs-offset-1 col-xs-10">
-    						<div class="bio">
+    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    						<div class="bio bio-sm">
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -239,7 +228,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Woman 2 -->
+		<!-- Woman 2 -->
 			<div class="row">
                 <!-- Contains Big Image and Bio -->
                 <div style="visibility: visible; animation-delay:5s; animation-name: fadeIn;" class="big-designers">
@@ -279,7 +268,7 @@
                     </div>
                 </div>
             </div>
-			<!-- man 1 -->
+		<!-- man 1 -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
@@ -291,7 +280,7 @@
 							</div>
 						</div>
 						<!-- Contains the bio -->
-						<div class="col-xs-7">
+						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
 							<div class="bio m1">
 								<div class="row">
 									<h2>Man 1<br>
@@ -319,7 +308,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- woman 3 -->
+		<!-- woman 3 -->
 			<!-- Add margin to correct misplacement -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
@@ -332,7 +321,7 @@
 							</div>
 						</div>
 						<!-- Contains the bio -->
-						<div class="col-xs-7">
+						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
 							<div class="bio w3">
 								<div class="row">
 									<h2>Woman 3<br>

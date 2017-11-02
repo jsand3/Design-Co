@@ -4,7 +4,13 @@
 
 // Smaller desktop screens
 @media (max-width: 1600px) { 
-	
+		/* Hide/ Show Bios mobile*/
+		.bio.bio-lg {
+			display: block;
+		}
+		.bio.bio-sm {
+			display: none;
+		}
 }
 
 // Tablets
@@ -123,24 +129,8 @@
 	}
 }
 
-// Mobile phones
-/*@media (max-width: 768px) {
-	img.bg {
-		transform: translate3d(0,0,0) !important;
-	}
-} */
 
 
-/* Tablet */
-/*@media (min-width: 768) and (max-width: 1084px) {
-
-	section.contact-us {
-
-		img.bg {
-			height: 76px;
-		}
-	}
-}*/
 
 /* mobile */
 
@@ -156,7 +146,7 @@
 
 	section.we-design {
 		background: url("http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg") no-repeat;
-		background-size: cover;
+		// background-size: cover;
 		img.bg {
 			height: 1576px;
 		}
@@ -166,13 +156,13 @@
 		display: none;
 	}
 
-	/*=================================
-	=            we-design            =
-	=================================*/
+	/*=======================================
+	=            design-projects            =
+	=======================================*/
 
 	section.design-projects {
 
-		background: linear-gradient(to bottom, rgba(246,246,246,0.3), rgba(237,237,237,0.11) 100%),
+		background: linear-gradient(to bottom, rgba(246,246,246,0.1), rgba(237,237,237,0.11) 100%),
 				url("http://affectstudios.net/john/wp-content/themes/sanders/images/bg-3-m.jpg") 
 				no-repeat;
 		background-size: cover;		
@@ -181,6 +171,10 @@
 			height: 2028px;
 		}
 	}
+
+	/*======================================
+	=            meet-designers            =
+	======================================*/
 
 	section.meet-designers {
 		
@@ -222,7 +216,15 @@
 		}
 		#mobile-designer-back-btn {
 		display: inline;
-	}
+		}
+		/* Hide/ Show Bios mobile*/
+		.bio-lg {
+			display: none;
+		}
+		.bio-sm {
+			display: block;
+		}
+		
 	}
 
 	section.about-us {
@@ -378,6 +380,10 @@
 				no-repeat;
 		background-size: cover;
 
+		// img.bg {
+		// 	height: 700px;
+		// 	top: 0px !important;
+		// }
 		.row.cf {
 
 		    height: 400px;
@@ -404,6 +410,9 @@
 		z-index: 1000;
 	}
 	}
+}
+@media (min-width: 768px) {
+
 }
 
 

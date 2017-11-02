@@ -59,6 +59,10 @@
 	color:#3CB1E3;
 	border-color:#3CB1E3;
 }
+@media (max-width: 1600px) {
+	.bio.bio-lg { display:block; }
+	.bio.bio-sm { display:none; }
+}
 @media (max-width: 1200px) {
 	section.design-projects .row.cf { height:300px; }
 	.wrapper { padding:0 20px; }
@@ -105,10 +109,7 @@
 }
 @media (max-width: 767px) {
 	img.bg { transform:translate3d(0,0,0) !important; }
-	section.we-design {
-		background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg") no-repeat;
-		background-size:cover;
-	}
+	section.we-design { background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg") no-repeat; }
 	section.we-design img.bg { height:1576px; }
 	#bg-mobile-only { display:none; }
 	section.design-projects {
@@ -132,6 +133,8 @@
 	section.meet-designers .glyphicon { font-size:20px; }
 	section.meet-designers .m-back { display:inline; }
 	section.meet-designers #mobile-designer-back-btn { display:inline; }
+	section.meet-designers .bio-lg { display:none; }
+	section.meet-designers .bio-sm { display:block; }
 	section.about-us p { margin:0 42px 30px 32px; }
 	header {
 		height:620px;
