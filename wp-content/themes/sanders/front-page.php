@@ -115,13 +115,13 @@
                     <!-- Woman 1 -->
                     <a id="designer-1" class="designers" href="#" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInLeft;" data-wow-delay="0.25s">
                         
-                     <img src="http://affectstudios.net/john/wp-content/themes/ckp/images/smwm1.png" alt="California Interior Designer" />
+                     <img src="<?php themedir() ?>/images/smwm1.png" alt="California Interior Designer" />
 
                     </a>
                      <!-- Woman 2 -->
                      <a id="designer-2" class="designers" href="#" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInLeft;" data-wow-delay="0.25s">
 
-                         <img src="http://affectstudios.net/john/wp-content/themes/ckp/images/smwm2.png" alt="California Interior Designer" />
+                         <img src="<?php themedir() ?>/images/smwm2.png" alt="California Interior Designer" />
 
                      </a>
                      <!-- Man 1 -->
@@ -169,19 +169,19 @@
                 </div>
             </div>
         </div>
-			<!-- woman 1 -->
+		<!-- woman 1 -->
             <div id="mobile-big"></div>
 			<!-- Contains Big Image and Bio -->
 			<div class="row">
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers">
 					<div class="designer-img-info designer-1" style="display: none;">
-						<!-- <div class="col-xs-3"> -->
 						<div class="col-xs-4">
 							<!-- Holds the big image -->
 							<div id="mobile-w-1" class="big-designer-img"> <!-- id is for mobile scrolling to image -->
-								<img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm1.png" alt="California Interior Designer" />
+								<img class="lg-designers" src="<?php themedir() ?>/images/lgwm1.png" alt="California Interior Designer" />
 							</div>
                         </div>
+                    <!--  -->
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
                             	<div class="bio w1"> 
@@ -190,7 +190,7 @@
                                     </h2>
                                 </div>
                             </div>
-                            <!--  -->
+                        <!-- lg bio -->
                             <div class="bio bio-lg">
     							<div class="row">
     								<p>
@@ -205,8 +205,9 @@
     								</p>
     							</div>
                             </div>
+                        <!-- /lg bio -->
                         </div>
-					      <!-- Contains the bio -->
+				    <!-- sm Bio -->
     					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
     						<div class="bio bio-sm">
     							<div class="row">
@@ -225,55 +226,78 @@
     							</div>
                             </div>
     					</div>
+					<!-- /sm bio -->
 					</div>
 				</div>
 			</div>
+		<!-- /Woman 1 -->
 		<!-- Woman 2 -->
 			<div class="row">
                 <!-- Contains Big Image and Bio -->
                 <div style="visibility: visible; animation-delay:5s; animation-name: fadeIn;" class="big-designers">
                     <div class="designer-img-info designer-2" style="display: none;">
-                        <div class="col-xs-3">
+                        <div class="col-xs-4">
                             <!-- Holds the big image -->
                             <div id="mobile-w-2" class="big-designer-img">
-                                <img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm2.png" alt="California Interior Designer">
+                                <img class="lg-designers" src="<?php themedir() ?>/images/lgwm2.png" alt="California Interior Designer">
                             </div>
                         </div>
                         <!-- Contains the bio -->
-                        <div class="col-xs-7">
-                            <div class="bio w2">
-                                <div class="row">
+                        <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+                            <div class="row">
+                                <div class="bio w2">
                                     <h2>Woman 2<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-                            <div class="row">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </p>
+	                        
+	                        <!--  -->
+                            <div class="bio bio-lg">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
                             </div>
-                            <div class="row">
-                                <p>
-                                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                                    mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-                                    i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-                                </p>
+                    	</div>
+                	<!-- sm Bio -->
+    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    						<div class="bio bio-sm">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    							</div>
+    							<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
                             </div>
-                        </div>
+    					</div>
+					<!-- /sm bio -->
                     </div>
                 </div>
             </div>
+        <!-- /woman 2 -->
 		<!-- man 1 -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
 					<div class="designer-img-info designer-3" style="display: none;">
-						<div class="col-xs-3">
+						<div class="col-xs-4">
 							<!-- Holds the big image -->
 							<div id="mobile-m-1" class="big-designer-img">
 								<img class="lg-designers" src="<?php themedir() ?>/images/lgmn1.png" alt="California Interior Designer" />
@@ -281,22 +305,21 @@
 						</div>
 						<!-- Contains the bio -->
 						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
-							<div class="bio m1">
-								<div class="row">
+							<div class="row">
+								<div class="bio m1">
 									<h2>Man 1<br>
 										<small>Title</small>
 									</h2>
 								</div>
                             </div>
                         </div>
-                        <div class="col-xs-offset-1 col-xs-10">
+                        <!-- lg bio -->
+                        <div class="bio bio-lg">
 							<div class="row">
 								<p>
 									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 								</p>
-							</div>
-							<div class="row">
 								<p>
 									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
@@ -305,16 +328,38 @@
 								</p>
 							</div>
                         </div>
-					</div>
+                        <!-- /lg bio -->
+                    </div>
+				    <!-- sm Bio -->
+    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    						<div class="bio bio-sm">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    							</div>
+    							<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+                            </div>
+    					</div>
+					<!-- /sm bio -->
 				</div>
 			</div>
+		<!-- /man 1 -->
 		<!-- woman 3 -->
 			<!-- Add margin to correct misplacement -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
 					<div class="designer-img-info designer-4" style="display: none;">
-						<div class="col-xs-3">
+						<div class="col-xs-4">
 							<!-- Holds the big image -->
 							<div id="mobile-w-3" class="big-designer-img">
 								<img class="lg-designers" src="<?php themedir() ?>/images/lgwm3.png" alt="California Interior Designer" />
@@ -322,75 +367,118 @@
 						</div>
 						<!-- Contains the bio -->
 						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
-							<div class="bio w3">
-								<div class="row">
+							<div class="row">
+								<div class="bio w3">
 									<h2>Woman 3<br>
 										<small>Title</small>
 									</h2>
 								</div>
                             </div>
+                       <!-- lg bio -->
+                            <div class="bio bio-lg">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+                            </div>
+                        <!-- /lg bio -->
                         </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-							</div>
-							<div class="row">
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-                        </div>
+				    <!-- sm Bio -->
+    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    						<div class="bio bio-sm">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    							</div>
+    							<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+                            </div>
+    					</div>
+					<!-- /sm bio -->
 					</div>
 				</div>
 			</div>
-			
+		<!-- /woman 3 -->
+		<!-- man 2 -->
 			<!-- man 2 -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
 					<div class="designer-img-info designer-5" style="display: none;">
-						<div id="mobile-m-2" class="col-xs-3">
+						<div id="mobile-m-2" class="col-xs-4">
 							<!-- Holds the big image -->
 							<div class="big-designer-img">
 								<img class="lg-designers" src="<?php themedir() ?>/images/lgmn2.png" alt="California Interior Designer" />
 							</div>
 						</div>
-						<!-- Contains the bio -->
-						<div class="col-xs-7">
-							<div class="bio m2">
-								<div class="row">
+					<!-- Contains the bio -->
+						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+							<div class="row">
+								<div class="bio m2">
 									<h2>Man 2<br>
 										<small>Title</small>
 									</h2>
 								</div>
                             </div>
                         </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-							</div>
-							<div class="row">
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-						</div>
-                    </div>
+                         <!-- lg bio -->
+                            <div class="bio bio-lg">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+                            </div>
+                        <!-- /lg bio -->
+                        </div>
+				    <!-- sm Bio -->
+    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    						<div class="bio bio-sm">
+    							<div class="row">
+    								<p>
+    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    								</p>
+    							</div>
+    							<div class="row">
+    								<p>
+    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+    								</p>
+    							</div>
+                            </div>
+    					</div>
+					<!-- /sm bio -->
+					</div>
 				</div>
 			</div>
-			<!-- -->
+		<!-- /man 2 -->
+
             <a id="mobile-designer-back-btn" class="m-back" href="#mobile-designers">
                 <div class="row scroll-up">  
                     <div class="col-xs-1">

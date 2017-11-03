@@ -156,7 +156,7 @@ header {
 	overflow:hidden;
 	z-index:0;
 	height:750px;
-	background:url(http://affectstudios.net/john/wp-content/themes/sanders/images/bg-1.jpg) no-repeat fixed;
+	background:url(../images/bg-1.jpg) no-repeat fixed;
 	background-size:cover;
 }
 header .background {
@@ -649,7 +649,7 @@ head h1 { font-size:52px; }
 .well { background-color:rgba(255,255,255,0.75); }
 #header-well { margin-top:300px; }
 section.we-design {
-	background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/kitchen-bg.jpg") no-repeat fixed;
+	background:url("../images/kitchen-bg.jpg") no-repeat fixed;
 	background-size:cover;
 }
 section.we-design .thumbnail { height:414px; }
@@ -699,13 +699,13 @@ section.about-us li {
 }
 section.design-projects {
 	position:relative;
-	background:linear-gradient(to bottom,rgba(246,246,246,0.1),rgba(237,237,237,0.11) 100%), url("http://affectstudios.net/john/wp-content/themes/sanders/images/bg-3-m.jpg") no-repeat fixed;
+	background:linear-gradient(to bottom,rgba(246,246,246,0.1),rgba(237,237,237,0.11) 100%), url("../images/bg-3-m.jpg") no-repeat fixed;
 	background-size:cover;
 }
 section.contact-us {
 	position:relative;
 	overflow:hidden;
-	background:url("http://affectstudios.net/john/wp-content/themes/sanders/images/desktop.jpg") no-repeat fixed;
+	background:url("../images/desktop.jpg") no-repeat fixed;
 	background-size:cover;
 }
 section.contact-us .row.cf { height:305px; }
