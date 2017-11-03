@@ -185,7 +185,7 @@
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
                             	<div class="bio w1"> 
-                                    <h2>Woman 1<br>
+                                    <h2>Woman 1 TEST<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>

@@ -166,23 +166,204 @@
                 </div>
             </div>
         </div>
-    <!-- woman 1 -->
-				<!-- 
-				<div class="row">
-				<div style="display: none;" class="big-designers woman-1">
-					<div class="col-md-offset-1 col-md-3">
-						<div class="big-designer-img">
-							<img class="lg-designers" src="<?php themedir() ?>/images/lgwm1.png" alt="California Interior Designer" />
+	<!-- woman 1 -->
+        <div id="mobile-big"></div>
+		<!-- Contains Big Image and Bio -->
+		<div class="row">
+			<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers">
+				<div class="designer-img-info designer-1" style="display: none;">
+					<div class="col-xs-3">
+						<!-- Holds the big image -->
+						<div id="mobile-w-1" class="big-designer-img"> <!-- id is for mobile scrolling to image -->
+							<img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm1.png" alt="California Interior Designer" />
+						</div>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="bio w1">
+                            <div class="row">
+                                <h2>Woman 1<br>
+                                    <small>Title</small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+				      <!-- Contains the bio -->
+					<div class="col-xs-offset-1 col-xs-10">
+						<div class="bio">
+							<div class="row">
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+								</p>
+							</div>
+							<div class="row">
+								<p>
+									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+								</p>
+							</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- /woman 1 -->
+	<!-- Woman 2 -->
+		<div class="row">
+            <!-- Contains Big Image and Bio -->
+            <div style="visibility: visible; animation-delay:5s; animation-name: fadeIn;" class="big-designers">
+                <div class="designer-img-info designer-2" style="display: none;">
+                    <div class="col-xs-3">
+                        <!-- Holds the big image -->
+                        <div id="mobile-w-2" class="big-designer-img">
+                            <img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm2.png" alt="California Interior Designer">
+                        </div>
+                    </div>
+                    <!-- Contains the bio -->
+                    <div class="col-xs-7">
+                        <div class="bio w2">
+                            <div class="row">
+                                <h2>Woman 2<br>
+                                    <small>Title</small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-offset-1 col-xs-10">
+                    	<div class="bio">
+	                        <div class="row">
+	                            <p>
+	                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	                            </p>
+	                        </div>
+	                        <div class="row">
+	                            <p>
+	                                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	                                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+	                                mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+	                                i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+	                            </p>
+	                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   	<!-- /woman 2 -->
+		<!-- man 1 -->
+		<div class="row">
+			<!-- Contains Big Image and Bio -->
+			<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
+				<div class="designer-img-info designer-3" style="display: none;">
+					<div class="col-xs-3">
+						<!-- Holds the big image -->
+						<div id="mobile-m-1" class="big-designer-img">
+							<img class="lg-designers" src="<?php themedir() ?>/images/lgmn1.png" alt="California Interior Designer" />
 						</div>
 					</div>
-					<div class="col-md-offset-1 col-md-7">
-						<div class="bio">
-							<h3>Woman 1<br>
-							Title</h3>
+					<!-- Contains the bio -->
+					<div class="col-xs-7">
+						<div class="bio m1">
+							<div class="row">
+								<h2>Man 1<br>
+									<small>Title</small>
+								</h2>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-offset-1 col-xs-10">
+						<div class="row">
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 								Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 							</p>
+						</div>
+						<div class="row">
+							<p>
+								Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+								mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+								i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+							</p>
+						</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!-- woman 3 -->
+		<!-- Add margin to correct misplacement -->
+		<div class="row">
+			<!-- Contains Big Image and Bio -->
+			<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
+				<div class="designer-img-info designer-4" style="display: none;">
+					<div class="col-xs-3">
+						<!-- Holds the big image -->
+						<div id="mobile-w-3" class="big-designer-img">
+							<img class="lg-designers" src="<?php themedir() ?>/images/lgwm3.png" alt="California Interior Designer" />
+						</div>
+					</div>
+					<!-- Contains the bio -->
+					<div class="col-xs-7">
+						<div class="bio w3">
+							<div class="row">
+								<h2>Woman 3<br>
+									<small>Title</small>
+								</h2>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-offset-1 col-xs-10">
+						<div class="row">
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							</p>
+						</div>
+						<div class="row">
+							<p>
+								Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+								mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+								i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+							</p>
+						</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- man 2 -->
+		<div class="row">
+			<!-- Contains Big Image and Bio -->
+			<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
+				<div class="designer-img-info designer-5" style="display: none;">
+					<div id="mobile-m-2" class="col-xs-3">
+						<!-- Holds the big image -->
+						<div class="big-designer-img">
+							<img class="lg-designers" src="<?php themedir() ?>/images/lgmn2.png" alt="California Interior Designer" />
+						</div>
+					</div>
+					<!-- Contains the bio -->
+					<div class="col-xs-7">
+						<div class="bio m2">
+							<div class="row">
+								<h2>Man 2<br>
+									<small>Title</small>
+								</h2>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-offset-1 col-xs-10">
+						<div class="row">
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							</p>
+						</div>
+						<div class="row">
 							<p>
 								Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
@@ -191,230 +372,26 @@
 							</p>
 						</div>
 					</div>
-				</div>
-			-->
-			<!-- woman 1 -->
-            <div id="mobile-big"></div>
-			<!-- Contains Big Image and Bio -->
-			<div class="row">
-				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers">
-					<div class="designer-img-info designer-1" style="display: none;">
-						<div class="col-xs-3">
-							<!-- Holds the big image -->
-							<div id="mobile-w-1" class="big-designer-img"> <!-- id is for mobile scrolling to image -->
-								<img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm1.png" alt="California Interior Designer" />
-							</div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="bio w1">
-                                <div class="row">
-                                    <h2>Woman 1<br>
-                                        <small>Title</small>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-					      <!-- Contains the bio -->
-    					<div class="col-xs-offset-1 col-xs-10">
-    						<div class="bio">
-    							<div class="row">
-    								<p>
-    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    								</p>
-    							</div>
-    							<div class="row">
-    								<p>
-    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-    								</p>
-    							</div>
-                            </div>
-    					</div>
-					</div>
-				</div>
+                </div>
 			</div>
-			<!-- Woman 2 -->
-			<div class="row">
-                <!-- Contains Big Image and Bio -->
-                <div style="visibility: visible; animation-delay:5s; animation-name: fadeIn;" class="big-designers">
-                    <div class="designer-img-info designer-2" style="display: none;">
-                        <div class="col-xs-3">
-                            <!-- Holds the big image -->
-                            <div id="mobile-w-2" class="big-designer-img">
-                                <img class="lg-designers" src="http://affectstudios.net/john/wp-content/themes/ckp/images/lgwm2.png" alt="California Interior Designer">
-                            </div>
-                        </div>
-                        <!-- Contains the bio -->
-                        <div class="col-xs-7">
-                            <div class="bio w2">
-                                <div class="row">
-                                    <h2>Woman 2<br>
-                                        <small>Title</small>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-                            <div class="row">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </p>
-                            </div>
-                            <div class="row">
-                                <p>
-                                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                                    mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-                                    i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+		</div>
+		<!-- -->
+        <a id="mobile-designer-back-btn" class="m-back" href="#mobile-designers">
+            <div class="row scroll-up">  
+                <div class="col-xs-1">
+                    <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+                </div>
+                <div class="col-xs-8">
+                  View More Designers
                 </div>
             </div>
-			<!-- man 1 -->
-			<div class="row">
-				<!-- Contains Big Image and Bio -->
-				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
-					<div class="designer-img-info designer-3" style="display: none;">
-						<div class="col-xs-3">
-							<!-- Holds the big image -->
-							<div id="mobile-m-1" class="big-designer-img">
-								<img class="lg-designers" src="<?php themedir() ?>/images/lgmn1.png" alt="California Interior Designer" />
-							</div>
-						</div>
-						<!-- Contains the bio -->
-						<div class="col-xs-7">
-							<div class="bio m1">
-								<div class="row">
-									<h2>Man 1<br>
-										<small>Title</small>
-									</h2>
-								</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-							</div>
-							<div class="row">
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-                        </div>
-					</div>
-				</div>
-			</div>
-			<!-- woman 3 -->
-			<!-- Add margin to correct misplacement -->
-			<div class="row">
-				<!-- Contains Big Image and Bio -->
-				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
-					<div class="designer-img-info designer-4" style="display: none;">
-						<div class="col-xs-3">
-							<!-- Holds the big image -->
-							<div id="mobile-w-3" class="big-designer-img">
-								<img class="lg-designers" src="<?php themedir() ?>/images/lgwm3.png" alt="California Interior Designer" />
-							</div>
-						</div>
-						<!-- Contains the bio -->
-						<div class="col-xs-7">
-							<div class="bio w3">
-								<div class="row">
-									<h2>Woman 3<br>
-										<small>Title</small>
-									</h2>
-								</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-							</div>
-							<div class="row">
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-                        </div>
-					</div>
-				</div>
-			</div>
-			
-			<!-- man 2 -->
-			<div class="row">
-				<!-- Contains Big Image and Bio -->
-				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
-					<div class="designer-img-info designer-5" style="display: none;">
-						<div id="mobile-m-2" class="col-xs-3">
-							<!-- Holds the big image -->
-							<div class="big-designer-img">
-								<img class="lg-designers" src="<?php themedir() ?>/images/lgmn2.png" alt="California Interior Designer" />
-							</div>
-						</div>
-						<!-- Contains the bio -->
-						<div class="col-xs-7">
-							<div class="bio m2">
-								<div class="row">
-									<h2>Man 2<br>
-										<small>Title</small>
-									</h2>
-								</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-10">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-							</div>
-							<div class="row">
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-						</div>
-                    </div>
-				</div>
-			</div>
-			<!-- -->
-            <a id="mobile-designer-back-btn" class="m-back" href="#mobile-designers">
-                <div class="row scroll-up">  
-                    <div class="col-xs-1">
-                        <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-                    </div>
-                    <div class="col-xs-8">
-                      View More Designers
-                    </div>
-                </div>
-            </a>			<!-- For Nav Links -->
-			<div id="de-pr"></div>
-			<!-- OG designers -->
+        </a>			<!-- For Nav Links -->
+		<div id="de-pr"></div>
+		<!-- OG designers -->
 
-			<!-- For Nav Links -->
-			<!-- <div id="de-pr"></div> -->
-		</div>
+		<!-- For Nav Links -->
+		<!-- <div id="de-pr"></div> -->
+	</div>
 	</div>
 </section>
 <!-- ~~~~~~~~~~~~~~~ -->
