@@ -185,7 +185,7 @@
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
                             	<div class="bio w1"> 
-                                    <h2>Woman 1 TEST<br>
+                                    <h2 class="md-mobile">Woman 1 TEST<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
@@ -210,6 +210,13 @@
 				    <!-- sm Bio -->
     					<div class="col-xs-12">
     						<div class="bio bio-sm">
+                                <div class="">
+                                    <div class="bio w1"> 
+                                        <h2 class="sm-mobile">Woman 1 TEST<br>
+                                            <small>Title</small>
+                                        </h2>
+                                    </div>
+                                </div>
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -246,7 +253,7 @@
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
                                 <div class="bio w2">
-                                    <h2>Woman 2<br>
+                                    <h2 class="md-mobile">Woman 2<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
@@ -269,8 +276,15 @@
                             </div>
                     	</div>
                 	<!-- sm Bio -->
-    					<div class="col-xs-12 col-sm-6 col-md-6">
+    					<div class="col-xs-12">
     						<div class="bio bio-sm">
+                                <div class="">
+                                    <div class="bio w1"> 
+                                        <h2 class="sm-mobile">Woman 1 TEST<br>
+                                            <small>Title</small>
+                                        </h2>
+                                    </div>
+                                </div>
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
