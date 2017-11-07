@@ -148,11 +148,11 @@
                 <div class="col-sm-offset-2 col-sm-8">
                     <!-- Woman 1 -->
                     <a id="designer-1" class="designers" href="#mobile-big">
-                        <img src="http://affectstudios.net/john/wp-content/themes/ckp/images/smwm1.png" alt="California Interior Designer" />
+                        <img src="<?php themedir() ?>/images/smwm1.png" alt="California Interior Designer" />
                     </a>
                     <!-- Woman 2 -->
                     <a id="designer-2" class="designers" href="#mobile-big">
-                        <img src="http://affectstudios.net/john/wp-content/themes/ckp/images/smwm2.png" alt="California Interior Designer" />
+                        <img src="<?php themedir() ?>/images/smwm2.png" alt="California Interior Designer" />
                     </a>
                     <!-- Man 1 -->
                     <a id="designer-3" class="designers mobile-link" href="#mobile-big">
@@ -208,7 +208,7 @@
                         <!-- /lg bio -->
                         </div>
 				    <!-- sm Bio -->
-    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    					<div class="col-xs-12">
     						<div class="bio bio-sm">
     							<div class="row">
     								<p>
@@ -269,7 +269,7 @@
                             </div>
                     	</div>
                 	<!-- sm Bio -->
-    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    					<div class="col-xs-12 col-sm-6 col-md-6">
     						<div class="bio bio-sm">
     							<div class="row">
     								<p>
@@ -312,34 +312,13 @@
 									</h2>
 								</div>
                             </div>
-                        </div>
                         <!-- lg bio -->
-                        <div class="bio bio-lg">
-							<div class="row">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-								</p>
-								<p>
-									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-								</p>
-							</div>
-                        </div>
-                        <!-- /lg bio -->
-                    </div>
-				    <!-- sm Bio -->
-    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
-    						<div class="bio bio-sm">
+                            <div class="bio bio-lg">
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     								</p>
-    							</div>
-    							<div class="row">
     								<p>
     									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
     									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
@@ -348,8 +327,29 @@
     								</p>
     							</div>
                             </div>
-    					</div>
-					<!-- /sm bio -->
+                        <!-- /lg bio -->
+                        </div>
+                        <!-- sm Bio -->
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="bio bio-sm">
+                                <div class="row">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p>
+                                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                                        mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                        i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- /sm bio -->
+                    </div>
 				</div>
 			</div>
 		<!-- /man 1 -->
@@ -392,7 +392,7 @@
                         <!-- /lg bio -->
                         </div>
 				    <!-- sm Bio -->
-    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    					<div class="col-xs-12 col-sm-6 col-md-6">
     						<div class="bio bio-sm">
     							<div class="row">
     								<p>
@@ -416,7 +416,6 @@
 			</div>
 		<!-- /woman 3 -->
 		<!-- man 2 -->
-			<!-- man 2 -->
 			<div class="row">
 				<!-- Contains Big Image and Bio -->
 				<div style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;" class="big-designers woman-1">
@@ -436,26 +435,25 @@
 									</h2>
 								</div>
                             </div>
-                        </div>
-                         <!-- lg bio -->
+                        <!-- lg bio -->
                             <div class="bio bio-lg">
-    							<div class="row">
-    								<p>
-    									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-    									Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    								</p>
-    								<p>
-    									Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-    									Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-    									mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    									i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
-    								</p>
-    							</div>
+                                <div class="row">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    </p>
+                                    <p>
+                                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                                        mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                        i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+                                    </p>
+                                </div>ß
                             </div>
                         <!-- /lg bio -->
                         </div>
 				    <!-- sm Bio -->
-    					<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
+    					<div class="col-xs-12">
     						<div class="bio bio-sm">
     							<div class="row">
     								<p>
@@ -474,10 +472,11 @@
                             </div>
     					</div>
 					<!-- /sm bio -->
-					</div>
+                    </div>
 				</div>
 			</div>
-		<!-- /man 2 -->
+        <!-- /man 2 -->
+	</div>
 
             <a id="mobile-designer-back-btn" class="m-back" href="#mobile-designers">
                 <div class="row scroll-up">  
