@@ -185,7 +185,7 @@
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
                             	<div class="bio w1"> 
-                                    <h2 class="md-mobile">Woman 1 TEST<br>
+                                    <h2 class="md-mobile">Cordelia Cruz<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
@@ -212,7 +212,7 @@
     						<div class="bio bio-sm">
                                 <div class="">
                                     <div class="bio w1"> 
-                                        <h2 class="sm-mobile">Woman 1 TEST<br>
+                                        <h2 class="sm-mobile">Cordelia Cruz<br>
                                             <small>Title</small>
                                         </h2>
                                     </div>
@@ -252,8 +252,8 @@
                         <!-- Contains the bio -->
                         <div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
                             <div class="row">
-                                <div class="bio w2">
-                                    <h2 class="md-mobile">Woman 2<br>
+                                <div class="bio w1">
+                                    <h2 class="md-mobile">Delia Walsh<br>
                                         <small>Title</small>
                                     </h2>
                                 </div>
@@ -280,7 +280,7 @@
     						<div class="bio bio-sm">
                                 <div class="">
                                     <div class="bio w1"> 
-                                        <h2 class="sm-mobile">Woman 1 TEST<br>
+                                        <h2 class="sm-mobile">Delia Walsh<br>
                                             <small>Title</small>
                                         </h2>
                                     </div>
@@ -320,8 +320,8 @@
 						<!-- Contains the bio -->
 						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
 							<div class="row">
-								<div class="bio m1">
-									<h2>Man 1<br>
+								<div class="bio w1">
+									<h2 class="md-mobile">Phillip Hunt<br>
 										<small>Title</small>
 									</h2>
 								</div>
@@ -344,8 +344,15 @@
                         <!-- /lg bio -->
                         </div>
                         <!-- sm Bio -->
-                        <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="col-xs-12">
                             <div class="bio bio-sm">
+                                <div class="">
+                                    <div class="bio w1"> 
+                                        <h2 class="sm-mobile">Phillip Hunt<br>
+                                            <small>Title</small>
+                                        </h2>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -382,8 +389,8 @@
 						<!-- Contains the bio -->
 						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
 							<div class="row">
-								<div class="bio w3">
-									<h2>Woman 3<br>
+								<div class="bio w1">
+									<h2 class="md-mobile">Jeanette Ross<br>
 										<small>Title</small>
 									</h2>
 								</div>
@@ -408,6 +415,13 @@
 				    <!-- sm Bio -->
     					<div class="col-xs-12 col-sm-6 col-md-6">
     						<div class="bio bio-sm">
+                                <div class="">
+                                    <div class="bio w1"> 
+                                        <h2 class="sm-mobile">Jeanette Ross<br>
+                                            <small>Title</small>
+                                        </h2>
+                                    </div>
+                                </div>
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -443,8 +457,8 @@
 					<!-- Contains the bio -->
 						<div class="col-xs-offset-1 col-xs-6 col-sm-6 col-md-6">
 							<div class="row">
-								<div class="bio m2">
-									<h2>Man 2<br>
+								<div class="bio w1"> 
+									<h2 class="md-mobile">Jon Warren<br>
 										<small>Title</small>
 									</h2>
 								</div>
@@ -462,13 +476,20 @@
                                         mperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
                                         i Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
                                     </p>
-                                </div>ß
+                                </div>
                             </div>
                         <!-- /lg bio -->
                         </div>
 				    <!-- sm Bio -->
     					<div class="col-xs-12">
     						<div class="bio bio-sm">
+                                <div class="">
+                                    <div class="bio w1"> 
+                                        <h2 class="sm-mobile">Jon Warren<br>
+                                            <small>Title</small>
+                                        </h2>
+                                    </div>
+                                </div>
     							<div class="row">
     								<p>
     									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.

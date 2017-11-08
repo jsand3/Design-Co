@@ -121,6 +121,7 @@
 	section.meet-designers .small-designers { display:none; }
 	section.meet-designers a.mobile-link { display:inline; }
 	section.meet-designers h2 { margin:0; }
+	section.meet-designers h2.md-mobile { margin-top:36%; }
 	section.meet-designers p { margin:20px 10px 10px 18px; }
 	section.meet-designers #mobile-big { margin-bottom:102px; }
 	section.meet-designers .big-designer-img { margin:0 0 10px 0; }
@@ -135,7 +136,6 @@
 	section.meet-designers #mobile-designer-back-btn { display:inline; }
 	section.meet-designers .bio-lg { display:none; }
 	section.meet-designers .bio-sm { display:block; }
-	section.meet-designers .bio.w1 { margin-top:36%; }
 	section.about-us p { margin:0 42px 30px 32px; }
 	header {
 		height:620px;
@@ -222,9 +222,12 @@
 	footer #f-mobile .row { margin-left:10px; }
 	footer .top-btn { z-index:1000; }
 }
+@media (min-width: 649px) {
+	h2.sm-mobile { display:none; }
+	h2.md-mobile { display:inline-block; }
+}
 @media (max-width: 648px) {
 	h2 { margin:0; }
-	h2.sm-mobile { display:inline-block; }
 	h2.md-mobile { display:none; }
 	section.meet-designers .bio.w1 { margin:0; }
 }

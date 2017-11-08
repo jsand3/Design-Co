@@ -643,7 +643,10 @@ section.awards-section {
 h1 {
 	font-size:44px;
 	text-align:center;
+	color:#40b1e4;
 }
+h3 { color:#CE9C5C; }
+.text-center { color:#333; }
 .menu { margin-right:30px; }
 head h1 { font-size:52px; }
 .well { background-color:rgba(255,255,255,0.75); }
@@ -664,13 +667,14 @@ section.meet-designers .big-designer-img img {
 }
 section.meet-designers .designer-img-info.designer-1 { margin-top:22px; }
 section.meet-designers .big-designers { display:inline; }
-section.meet-designers .meet-designers .designer-img-info { margin-top:22px; }
+section.meet-designers .designer-img-info { margin-top:22px; }
 section.meet-designers .small-designers img { margin-right:-22px; }
 section.meet-designers h2 {
 	font-family:'PT Sans', 'Alegreya Sans', 'Georgia', 'Times New Roman', serif;
 	font-size:30px;
 	margin:0px 0px;
 	line-height:.85;
+	color:#CE9C5C;
 }
 section.meet-designers p {
 	font-family:'Raleway', 'Georgia', 'Times New Roman', serif;
